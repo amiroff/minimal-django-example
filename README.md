@@ -10,8 +10,8 @@ This is a minimal `Hello World` example using [Django](https://www.djangoproject
     ```shell
     python3 -m venv venv
     source venv/bin/activate
-    pip install django
+    python3 -m pip install django
     ```
-5. Run the development server: `python minimal.py runserver`
+5. Run the development server: `python app.py runserver`
 6. Navigate your browser to `http://127.0.0.1:8000/` to see basic example using `HttpResponse`
 7. Navigate your browser to `http://127.0.0.1:8000/hello/World` to see basic basic example using template rendering.
