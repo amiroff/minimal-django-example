@@ -20,7 +20,7 @@ def index_view(request):
 
 
 def hello_view(request, name):
-    return render(request, "template.html", {"name": name, "request": request})
+    return render(request, "template.html", {"name": name})
 
 
 urlpatterns = [
